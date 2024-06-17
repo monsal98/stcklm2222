@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__lista{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.header__elementoLista{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2rem;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:small;
+    cursor: pointer;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo{
+    width: 5.5rem;
+    height: 1.1rem;
+    padding: 2rem;
+    align-items: flex-end;
+    display: flex;
+}
+.fa-solid{
+    display: inline-block;
+
+    margin: 2rem;
+}
+
+
+/*HASTA AQUI EL HEADER*/
+
+
+
+/* .gridContainer1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    gap: 0.5rem;
+
+}
+.gridContainer__Imagen1{
+    grid-column: 1;
+    grid-row:  1;
+}
+
+.gridContainer__Imagen2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.gridContainer__Imagen3{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.gridContainer__Imagen6{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+*/
+
+.gridContainer{
+    display: grid;
+}
+
+.gridContainer1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+    "imagen1 imagen2 imagen3 imagen4 imagen5 imagen5"
+    "imagen6 imagen7 imagen3 imagen8 imagen5 imagen5";
+}
+
+img{
+    width: 100%;
+}
+.gridContainer__imagen1{
+    grid-area: imagen1;
+}
+
+.gridContainer__imagen2{
+    grid-area: imagen2;
+}
+
+.gridContainer__imagen3{
+    grid-area: imagen3;
+}
+
+.gridContainer__imagen4{
+    grid-area: imagen4;
+}
+
+.gridContainer__imagen5{
+    grid-area: imagen5;
+}
+
+.gridContainer__imagen6{
+    grid-area: imagen6;
+}
+
+.gridContainer__imagen7{
+    grid-area: imagen7;
+}
+
+.gridContainer__imagen8{
+    grid-area: imagen8;
+}
+
+.gridContainer2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+    "imagen9 imagen9 imagen10 imagen11 imagen12 imagen13"
+    "imagen9 imagen9 imagen14 imagen15 imagen12 imagen16" ;
+
+}
+
+.gridContainer__imagen9{
+    grid-area: imagen9;
+}
+
+.gridContainer__imagen10{
+    grid-area: imagen10;
+}
+
+.gridContainer__imagen11{
+    grid-area: imagen11;
+}
+.gridContainer__imagen12{
+    grid-area: imagen12;
+}
+
+.gridContainer__imagen13{
+    grid-area: imagen13;
+}
+
+.gridContainer__imagen14{
+    grid-area: imagen14;
+}
+
+.gridContainer__imagen15{
+    grid-area: imagen15;
+}
+
+.gridContainer__imagen16{
+    grid-area: imagen16;
+}
+
+.gridContainer3{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+    "imagen17 imagen17 imagen18 imagen19 imagen20 imagen21";
+
+}
+
+.gridContainer__imagen17{
+    grid-area: imagen17;
+
+}
+
+.gridContainer__imagen18{
+    grid-area: imagen18;
+}
+
+.gridContainer__imagen19{
+    grid-area: imagen19;
+}
+
+.gridContainer__imagen20{
+    grid-area: imagen20;
+}
+
+.gridContainer__imagen21{
+    grid-area: imagen21;
+}
+
+/*HASTA AQUI EL CSS DEL GRID*/
+
+.footer{
+    text-align: center;
+    margin: 3rem 3rem 2rem;
+}
+
+.footer__imagen{
+    width: 8.5rem;
+    height: 1.5rem;
+    margin: 2rem 0 1.3rem;
+}
+.footer__texto1{
+    font-size:small;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0.3rem;
+}
+
+.footer__texto2{
+    font-size: 0.6rem;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 4rem 0 0 0 ;
+}
+
+/*HASTA AQUI EL FOOTER*/
+  
